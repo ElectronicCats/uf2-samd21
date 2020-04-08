@@ -573,26 +573,41 @@
 #define PINMUX_PA11C_SERCOM0_PAD3  ((PIN_PA11C_SERCOM0_PAD3 << 16) | MUX_PA11C_SERCOM0_PAD3)
 #define PORT_PA11C_SERCOM0_PAD3  (_UL_(1) << 11)
 /* ========== PORT definition for SERCOM1 peripheral ========== */
+#define PIN_PA04C_SERCOM1_PAD0         _L_(4) /**< \brief SERCOM1 signal: PAD0 on PA16 mux C */
+#define MUX_PA04C_SERCOM1_PAD0          _L_(3)
+#define PINMUX_PA04C_SERCOM1_PAD0  ((PIN_PA04C_SERCOM1_PAD0 << 16) | MUX_PA04C_SERCOM1_PAD0)
+#define PORT_PA04C_SERCOM1_PAD0  (_UL_(1) << 4)
+
 #define PIN_PA16C_SERCOM1_PAD0         _L_(16) /**< \brief SERCOM1 signal: PAD0 on PA16 mux C */
 #define MUX_PA16C_SERCOM1_PAD0          _L_(2)
 #define PINMUX_PA16C_SERCOM1_PAD0  ((PIN_PA16C_SERCOM1_PAD0 << 16) | MUX_PA16C_SERCOM1_PAD0)
 #define PORT_PA16C_SERCOM1_PAD0  (_UL_(1) << 16)
+
 #define PIN_PA00D_SERCOM1_PAD0          _L_(0) /**< \brief SERCOM1 signal: PAD0 on PA00 mux D */
 #define MUX_PA00D_SERCOM1_PAD0          _L_(3)
 #define PINMUX_PA00D_SERCOM1_PAD0  ((PIN_PA00D_SERCOM1_PAD0 << 16) | MUX_PA00D_SERCOM1_PAD0)
 #define PORT_PA00D_SERCOM1_PAD0  (_UL_(1) <<  0)
+
+#define PIN_PA05C_SERCOM1_PAD1         _L_(5) /**< \brief SERCOM1 signal: PAD1 on PA17 mux C */
+#define MUX_PA05C_SERCOM1_PAD1          _L_(3)
+#define PINMUX_PA05C_SERCOM1_PAD1  ((PIN_PA05C_SERCOM1_PAD1 << 16) | MUX_PA05C_SERCOM1_PAD1)
+#define PORT_PA05C_SERCOM1_PAD1  (_UL_(1) << 5)
+
 #define PIN_PA17C_SERCOM1_PAD1         _L_(17) /**< \brief SERCOM1 signal: PAD1 on PA17 mux C */
 #define MUX_PA17C_SERCOM1_PAD1          _L_(2)
 #define PINMUX_PA17C_SERCOM1_PAD1  ((PIN_PA17C_SERCOM1_PAD1 << 16) | MUX_PA17C_SERCOM1_PAD1)
 #define PORT_PA17C_SERCOM1_PAD1  (_UL_(1) << 17)
+
 #define PIN_PA01D_SERCOM1_PAD1          _L_(1) /**< \brief SERCOM1 signal: PAD1 on PA01 mux D */
 #define MUX_PA01D_SERCOM1_PAD1          _L_(3)
 #define PINMUX_PA01D_SERCOM1_PAD1  ((PIN_PA01D_SERCOM1_PAD1 << 16) | MUX_PA01D_SERCOM1_PAD1)
 #define PORT_PA01D_SERCOM1_PAD1  (_UL_(1) <<  1)
+
 #define PIN_PA30D_SERCOM1_PAD2         _L_(30) /**< \brief SERCOM1 signal: PAD2 on PA30 mux D */
 #define MUX_PA30D_SERCOM1_PAD2          _L_(3)
 #define PINMUX_PA30D_SERCOM1_PAD2  ((PIN_PA30D_SERCOM1_PAD2 << 16) | MUX_PA30D_SERCOM1_PAD2)
 #define PORT_PA30D_SERCOM1_PAD2  (_UL_(1) << 30)
+
 #define PIN_PA18C_SERCOM1_PAD2         _L_(18) /**< \brief SERCOM1 signal: PAD2 on PA18 mux C */
 #define MUX_PA18C_SERCOM1_PAD2          _L_(2)
 #define PINMUX_PA18C_SERCOM1_PAD2  ((PIN_PA18C_SERCOM1_PAD2 << 16) | MUX_PA18C_SERCOM1_PAD2)
