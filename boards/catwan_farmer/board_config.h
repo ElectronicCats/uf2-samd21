@@ -8,8 +8,8 @@
 #define VOLUME_LABEL "FARMER"
 #define INDEX_URL "http://electroniccats.com"
 
-#define USB_VID 0x03EB   // 
-#define USB_PID 0x2402   //
+#define USB_VID 0x1209   // pidcodes
+#define USB_PID 0xBAB9   //
 
 #define BOARD_ID "Catwan-Farmer"
 
